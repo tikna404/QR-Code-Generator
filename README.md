@@ -8,15 +8,15 @@ This project is a simple web application that allows users to generate QR codes 
 # Usage
 1. Clone this repository to your local machine.
 ```bash
-Copy code
 git clone https://github.com/your-username/qr-code-generator.git
 ```
 2. Open index.html in your web browser.
-Dependencies
+
+## Dependencies
 This project doesn't have any external dependencies. Everything is included within the repository.
 
-Contributing
+## Contributing
 Contributions are welcome! Feel free to open issues or pull requests for any improvements or bug fixes.
 
-License
+## License
 This project is licensed under the MIT License.
