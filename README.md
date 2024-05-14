@@ -2,13 +2,13 @@
 This project is a simple web application that allows users to generate QR codes for URLs. It's built using HTML, CSS, and JavaScript.
 
 #Features
-Generate QR codes for URLs instantly.
-Customizable QR code size and color.
-Easy-to-use interface.
-Usage
-Clone this repository to your local machine.
-bash
-Copy code
+*Generate QR codes for URLs instantly.
+*Customizable QR code size and color.
+*Easy-to-use interface.
+*Usage
+*Clone this repository to your local machine.
+*bash
+*Copy code
 git clone https://github.com/your-username/qr-code-generator.git
 Open index.html in your web browser.
 Dependencies
