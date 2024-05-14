@@ -1,0 +1,119 @@
+:root {
+    --light: #ffffff;
+    --dark: #1f1b24;
+    --color-1: #114bf6;
+    --color-2: #09eff3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: all 1s ease;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+
+body {
+    background-color: var(--dark);
+    min-height: 100vh;
+}
+
+.gradient-text {
+    background: linear-gradient(310deg, var(--color-2), var(--color-1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header {
+    text-align: center;
+    top: 10vh;
+    position: relative;
+    animation: load 2s ease;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.card {
+    background-color: var(--light);
+    width: 325px;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    border-radius: .25em;
+    top: 20vh;
+    position: relative;
+    z-index: 3;
+    animation: load 2s ease;
+}
+
+.qr-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.qr-input {
+    background-color: rgb(223, 229, 238);
+    width: 100%;
+    outline: 0;
+    border: 0;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: .25em;
+    transition: all .5s ease;
+}
+
+.qr-chars {
+    display: none;
+    color: rgb(51, 65, 78);
+    font-size: small;
+    margin-top: 1em;
+}
+
+.custom-shape-divider-bottom-1648582354 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1648582354 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1648582354 .shape-fill {
+    fill: var(--color-2);
+    animation: load 2s ease;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1648582354 svg {
+        width: calc(150% + 1.3px);
+        height: 150px;
+    }
+}
+
+@keyframes load {
+    0% {
+        opacity: 0;
+        transform: translateY(-15vh);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
