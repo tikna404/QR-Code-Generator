@@ -3,12 +3,11 @@ This project is a simple web application that allows users to generate QR codes 
 
 ## Features
 * Generate QR codes for URLs instantly.
-* Customizable QR code size and color.
 * Easy-to-use interface.
 # Usage
 1. Clone this repository to your local machine.
 ```bash
-git clone https://github.com/your-username/qr-code-generator.git
+git clone https://github.com/tikna404/qr-code-generator.git
 ```
 2. Open index.html in your web browser.
 
